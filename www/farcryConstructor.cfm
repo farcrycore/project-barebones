@@ -14,17 +14,18 @@
 <cfset THIS.mappings = structNew() />
 
 <!--- FARCRY SPECIFIC --->
-<cfset THIS.locales = "en_AU,en_US" />
+<cfset THIS.bUseENV = true />
+<cfset THIS.locales = "en_AU" />
 <cfset THIS.dsn = "barebones" /> 
-<cfset THIS.dbType = "mssql2005" /> 
-<cfset THIS.dbOwner = "dbo." /> 
+<cfset THIS.dbType = "mysql" /> 
+<cfset THIS.dbOwner = "" /> 
 <cfset THIS.plugins = "" /> 
 
 <!--- 
 THE VIRTUAL WEBSERVER PROJECT FOLDER
  --->
 <cfset THIS.projectURL = "" />
-<cfset THIS.webtopURL = "/farcry/core/webtop" />
+<cfset THIS.webtopURL = "/webtop" />
 
 <!--- 
 A key that can be used on updateapp url variable to update the application scope
@@ -41,3 +42,6 @@ SET THIS VALUE IF IT IS DIFFERENT FROM THE APPLICATION NAME
 <!--- Define the page request properties. --->
 <!--- <cfsetting requesttimeout="30" /> --->
 <!--- <cfsetting showdebugoutput="true" /> --->
+
+
+
