@@ -1,7 +1,7 @@
 Project Barebones
 ===============
 
-> Old mother Hubbard went to the cupboard...
+> Old mother Hubbard went to the cupboard... when she got there the cupboard was bare.
 
 Absolute minimalist project skeleton for FarCry Core app development.
 
